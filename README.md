@@ -3,6 +3,7 @@
 ## Usage
 You must include the script boidsMain.js and link boids.cssin your html file. Also, include the canvas element with the id 'boidsCanvas'.
 ```     
+   <head>
         <link rel="stylesheet" href="boids.css">
         <script type="module" src="boidsMain.js"></script>
     </head>
