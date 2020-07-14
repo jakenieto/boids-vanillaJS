@@ -1,27 +1,14 @@
 # Boids in Vanilla JS Using Canvas
   In this project I implemented the boid algorithm which simulates the flocking behaviour of birds. 
 ## Usage
-You must link the script in your html file, and include the canvas element with the id 'boids'.
+You must include the script boidsMain.js and link boids.cssin your html file. Also, include the canvas element with the id 'boidsCanvas'.
 ```     
-        <script type='module' src='main.js'>
-            import './boids/boids.js'      
-        </script>
-        <style>
-           canvas {
-                padding: 0;
-                margin: auto;
-                display: flex;
-                width: 100%;
-                height: 100%;
-                position: relative;
-            }
-        </style>
+        <link rel="stylesheet" href="boids.css">
+        <script type="module" src="boidsMain.js"></script>
     </head>
     <body>
-        <div class="canvas-container">
-            <canvas id="main"></canvas>
-        </div> 
-        
+        <canvas id="boidsCanvas"></canvas>
+    </body>
 ```
 ## Example
 An example of the animation is on my personal website <http://www.jakenieto.com>. If you click the background a new flock of boids
