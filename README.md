@@ -14,3 +14,6 @@ You must include the script boidsMain.js and link boids.cssin your html file. Al
 ## Example
 An example of the animation is on my personal website <http://www.jakenieto.com>. If you click the background a new flock of boids
 is generated. 
+
+## Inspiration
+I got my inspiration for this project here <https://p5js.org/examples/simulate-flocking.html>.
